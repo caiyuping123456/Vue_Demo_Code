@@ -3,15 +3,15 @@
  * router====>多个route
  *    路径会改变
  */
-import {usePerson} from '@/hooks/userPerson.ts'
-const {personList} = usePerson();
+import {useStudent} from '@/hooks/useStudent.ts'
+const {studentList} = useStudent();
 </script>
 
 <template>
-  <div id="person">
-    <h1>我是Person组件</h1>
+  <div id="student">
+    <h1>我是Student组件</h1>
     <ul>
-      <li v-for="item in personList" :key="item.id">
+      <li v-for="item in studentList" :key="item.id">
         序号：{{item.id}}==名字：{{item.name}}==年龄：{{item.age}}
       </li>
     </ul>
@@ -19,13 +19,11 @@ const {personList} = usePerson();
 </template>
 
 <style scoped>
-#person{
+#student{
   height: 200px;
   width: 75%;
   background-color: turquoise;
   margin-top: 100px;
 }
-img{
-  height: 100px;
-}
+
 </style>
