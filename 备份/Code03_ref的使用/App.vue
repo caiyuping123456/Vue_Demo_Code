@@ -15,7 +15,6 @@ import Person from "@/components/Person.vue";
 <style scoped>
 #body{
   margin: 10px;
-  margin-bottom: 40px;
   background-color: yellow;
 }
 </style>
