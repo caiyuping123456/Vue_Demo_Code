@@ -1,11 +1,12 @@
 <script setup lang="ts" name="App">
-
-import Person from "@/components/Person.vue";
 </script>
 
 <template>
   <div id="app">
-    <Person/>
+    <div id="body">
+      <h2 ref="title2">你好</h2>
+      <Person/>
+    </div>
   </div>
 </template>
 

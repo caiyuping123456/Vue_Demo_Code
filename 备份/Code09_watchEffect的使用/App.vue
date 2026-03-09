@@ -1,11 +1,14 @@
-<script setup lang="ts" name="App">
-
+<script setup lang="ts">
 import Person from "@/components/Person.vue";
 </script>
 
 <template>
   <div id="app">
-    <Person/>
+    <div id="body">
+      nihao
+      <Person/>
+    </div>
+
   </div>
 </template>
 
