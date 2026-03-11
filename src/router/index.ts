@@ -4,8 +4,8 @@
 import {createRouter,createWebHistory} from "vue-router";
 
 // 3. 引入一个个的路由组件
-import Person from "@/components/Person.vue";
-import Student from "@/components/Student.vue";
+import Person from "@/pages/Person.vue";
+import Student from "@/pages/Student.vue";
 
 // 2. 创建路由器
 const router = createRouter({

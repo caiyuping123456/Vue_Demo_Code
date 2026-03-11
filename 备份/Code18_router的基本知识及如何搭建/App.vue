@@ -1,6 +1,6 @@
 <script setup lang="ts" name="App">
-import Person from "@/components/Person.vue";
-import Student from "@/components/Student.vue";
+import Person from "@/pages/Person.vue";
+import Student from "@/pages/Student.vue";
 /**
  * 1. 安装router,使用：npm i vue-router
  * 2. 创建router文件夹

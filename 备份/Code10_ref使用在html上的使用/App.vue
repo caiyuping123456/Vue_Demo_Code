@@ -1,5 +1,5 @@
 <script setup lang="ts" name="App">
-import Person from "@/components/Person.vue";
+import Person from "@/pages/Person.vue";
 import {ref} from 'vue'
 let title2 = ref()
 

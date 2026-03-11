@@ -2,7 +2,7 @@
 
 import {reactive, ref} from "vue";
 import type {Persons} from "@/types";
-import Person from "@/components/Person.vue"
+import Person from "@/pages/Person.vue"
 
 let personList : Persons = reactive([
   {id:1,name:"张三",age:20},

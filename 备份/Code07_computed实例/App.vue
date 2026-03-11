@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Person from "@/components/Person.vue";
+import Person from "@/pages/Person.vue";
 </script>
 
 <template>
