@@ -2,7 +2,7 @@
 import Count from "@/component/Count.vue";
 import LoveTalk from "@/component/LoveTike.vue";
 /**
- * 下面开始组件式写法
+ * getters的使用
  */
 </script>
 
