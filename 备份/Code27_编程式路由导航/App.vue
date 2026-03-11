@@ -1,14 +1,12 @@
 <script setup lang="ts" name="App">
 
 /**
- * 重定向:
- *    一开始时,不会进行跳转
- *    可以在配置文件中加redirect
- *     ,{
- *             path:'/',
- *             redirect:'/person'
- *         }
- *     也就是说访问/时,/告诉你,要去/person,你就去了/person
+ * 编程式路由导航
+ *    因为RouterLink只是一个a标签,如果不通过a标签进行跳转,就要使用编程式导航跳转
+ *    这个也就是编程式路由导航
+ *    1. 可以使用useRouter进行编程===>拿到了路由器
+ *    2. 再用push进行跳转
+ *
  */
 import {RouterView, useRouter} from "vue-router";
 import {onMounted} from "vue";

@@ -68,10 +68,6 @@ const router = createRouter({
             path:'/routeU',
             component:RouterUUUU
         }
-        ,{
-            path:'/',
-            redirect:'/person'
-        }
     ]
 })
 

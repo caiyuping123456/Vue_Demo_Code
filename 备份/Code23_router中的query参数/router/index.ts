@@ -9,7 +9,6 @@ import Student from "@/pages/Student.vue";
 import Teacher from "@/pages/Teacher.vue"
 import News from "@/pages/News.vue"
 import Context from "@/pages/Context.vue";
-import RouterUUUU from "@/pages/RouterUUUU.vue";
 
 
 // 2. 创建路由器
@@ -40,37 +39,10 @@ const router = createRouter({
             component:News,
             children:[
                 {
-                    name:'xiangqing',
-                    // 这个表示一定要进行传值
-                    // 可以使用？标识进行标识可以不传
-                    path:'context/:id/:title/:content?',
-                    component:Context,
-                    // 表示将一个个的参数转为props参数
-                    // 第一种写法
-                    // props:true
-                    // 第二种写法;;参数表示；route
-                    props(route){
-                        return route.params;
-                    }
-                    // 第三种写法
-                    // props:{
-                    //     a:100,
-                    //     b:200,
-                    //     c:300
-                    // }
-
-
+                    path:'context',
+                    component:Context
                 }
             ]
-        }
-        ,{
-            name:'routeU',
-            path:'/routeU',
-            component:RouterUUUU
-        }
-        ,{
-            path:'/',
-            redirect:'/person'
         }
     ]
 })

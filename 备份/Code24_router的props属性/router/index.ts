@@ -9,7 +9,6 @@ import Student from "@/pages/Student.vue";
 import Teacher from "@/pages/Teacher.vue"
 import News from "@/pages/News.vue"
 import Context from "@/pages/Context.vue";
-import RouterUUUU from "@/pages/RouterUUUU.vue";
 
 
 // 2. 创建路由器
@@ -62,15 +61,6 @@ const router = createRouter({
 
                 }
             ]
-        }
-        ,{
-            name:'routeU',
-            path:'/routeU',
-            component:RouterUUUU
-        }
-        ,{
-            path:'/',
-            redirect:'/person'
         }
     ]
 })
