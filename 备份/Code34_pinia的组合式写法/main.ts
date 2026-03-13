@@ -2,10 +2,15 @@
 import {createApp} from "vue";
 // Vue组件挂载
 import App from "./App.vue";
-// @ts-ignore
-import router from "@/router";
+//引入pinia
+import { createPinia } from 'pinia'
+
 //创建整个应用
 const app = createApp(App)
-//应用router(挂载路由)
-app.use(router)
+
+//创建pinia
+const pinia = createPinia()
+//安装pinia
+app.use(pinia)
+
 app.mount('#app')
