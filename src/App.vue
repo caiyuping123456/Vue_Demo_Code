@@ -1,5 +1,5 @@
 <script setup lang="ts" name="App">
-import Father from "@/02_子传父/vue2/refs和child/Father.vue"
+import Father from "@/02_子传父/vue2/project/Father.vue"
 </script>
 
 <template>
